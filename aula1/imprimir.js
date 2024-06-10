@@ -13,3 +13,7 @@ console.log(1.5, 7.5, 10.50); //float = number
 
 console.log(true); //boolean
 console.log(false); //boolean
+
+/* 
+Comentário longo...
+*/
