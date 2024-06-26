@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <h1>Seu numéro é...</h1>
+</body>
+<script>
+    const numero = prompt('Digite um número')
+    document.body.innerHTML += (`Raiz quadrada ${numero ** 0.5} <br /> <br />`);
+    document.body.innerHTML += (`${numero} é inteiro: ${Number.isInteger(numero)} <br /> <br />`);
+    document.body.innerHTML += (`É NaN: ${Number.isNaN(numero)} <br /> <br />`);
+    document.body.innerHTML += (`Arredondando para baixo: ${Math.floor(numero)} <br /> <br />`);
+    document.body.innerHTML += (`Arredondando para cima: ${Math.ceil(numero)} <br /> <br />`);
+    document.body.innerHTML += (`Com duas casas decimais: ${} <br />`);
+</script>
+</html>
