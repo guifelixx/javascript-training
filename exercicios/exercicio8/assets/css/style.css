@@ -27,3 +27,9 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
